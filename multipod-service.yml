@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: multipod-service
+  namespace: all-in-one
 spec:
   selector:
     app: utopia
